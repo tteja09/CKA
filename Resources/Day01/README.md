@@ -50,3 +50,10 @@
 ## Docker Architecture
 
 ![image](https://github.com/piyushsachdeva/CKA-2024/assets/40286378/79099c53-7f63-4bb6-885c-28cdd0850d93)
+
+When you run a Docker container, this is what happens:
+
+You type a Docker command
+The Docker daemon receives your request
+The daemon tells containerd what needs to be done
+containerd uses runc to create and run the actual container
